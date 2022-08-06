@@ -18,3 +18,8 @@ def update():
     # add code here
     return redirect('/')
 
+
+@main_blueprint.route('/delete')
+def update():
+    # add code here
+    return redirect('/')
