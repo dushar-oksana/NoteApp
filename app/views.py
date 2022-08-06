@@ -12,3 +12,9 @@ def update():
     # add code here
     return redirect('/')
 
+
+@main_blueprint.route('/update')
+def update():
+    # add code here
+    return redirect('/')
+
