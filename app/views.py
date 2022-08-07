@@ -8,7 +8,7 @@ def index():
     return render_template('index.html')
 
 @main_blueprint.route('/create')
-def update():
+def create():
     # add code here
     return redirect('/')
 
@@ -20,6 +20,6 @@ def update():
 
 
 @main_blueprint.route('/delete')
-def update():
+def delete():
     # add code here
     return redirect('/')
